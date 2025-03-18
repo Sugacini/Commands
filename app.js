@@ -4,7 +4,6 @@ const app = express();
 const mysql = require("mysql2");
 const socketio = require("socket.io");
 const http = require("http");
-const buffer = require("buffer");
 
 app.use(express.json());
 const server = http.createServer(app);
@@ -45,8 +44,6 @@ app.get("/chat", (req, res) => {
     res.render("chat");
 })
 
-const buf = Buffer.alloc(10);
-console.log(buf); 
 
 let userName;
 let email;

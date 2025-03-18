@@ -6,7 +6,7 @@ signUp.addEventListener("click", async () => {
     let email = document.getElementById("email").value;
     let password = document.getElementById("password1").value;
     console.log(userName,email);
-    let p1 = await fetch("http://localhost:3200/signUp", {
+    let p1 = await fetch("/signUp", {
         method: "POST",
         headers: {
             "content-Type": "application/json",
@@ -18,7 +18,7 @@ signUp.addEventListener("click", async () => {
         })
     });
     console.log(p1);
-    let p2 = fetch("http://localhost:3200/chat", {
+    let p2 = fetch("/chat", {
         method: "POST",
         headers:{
             "Content-Type": "application/json",
