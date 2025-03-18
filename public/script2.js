@@ -17,7 +17,7 @@ let pass = document.getElementById("password").value;
 //     database: "jsDataBase",
 // });
 
-let p2 = fetch("/chat", {
+let p2 = fetch("http://localhost:3200/chat", {
         method: "POST",
         headers:{
             "Content-Type": "application/json",
