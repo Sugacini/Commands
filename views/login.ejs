@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="outerDiv1">
+        <h2>Login</h2>
+        <form id="login" action="/login" method="POST">
+            <div class="userDetails">
+                <label for="userName">UserName</label>
+                <input type="text" id="userName" placeholder="Enter UserName" name="username" required>
+            </div>
+            <div class="userDetails">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password" name="password" required>
+            </div>
+            <button type="submit" id="loginSubmit"><a href="/chat">Login</a></button>
+            <div class="message" id="finalMessage"></div>
+        </form>
+        <p class="signUp"><a href="/" id="signUpCheck">SignUp</a></p>
+    </div>
+
+    <!-- <div class="messagePage">
+        <div id="messageDiv">
+        </div>
+        <div class="userMsgInput">
+            <input type="text" placeholder="Enter the message" id="msgVal">
+            <button value="send" id="sendMsg">Send</button>
+        </div>
+    </div> -->
+
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>

@@ -1,0 +1,528 @@
+h1 {
+    color: green;
+    text-align: center;
+}
+
+p {
+    color: rgb(76, 76, 70);
+    text-align: center;
+    margin-top: 2%;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    margin: auto;
+}
+
+#name {
+    margin-top: 5%;
+    height: 27px;
+    width: 92%;
+}
+
+#password {
+    margin-top: -1%;
+    height: 27px;
+    width: 100%;
+}
+
+#password1 {
+    margin-top: -1%;
+    height: 27px;
+    width: 92%;
+}
+
+#email{
+    width: 92%;
+    height: 27px;
+}
+
+#submit {
+    margin-top: 5%;
+    height: 40px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7e7eb9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.outerDiv1 {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 300px;
+    margin: auto;
+}
+
+.outerDiv1 h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.userDetails {
+    margin-bottom: 15px;
+}
+
+.userDetails label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.userDetails input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.userDetails input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+#loginSubmit {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#loginSubmit:hover {
+    background-color: #0056b3;
+}
+
+#signUpSubmit {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#signUpSubmit:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: red;
+}
+
+.signUp {
+    text-align: center;
+    margin-top: 25%;
+}
+
+.outerDiv {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 290px;
+    height: 425px;
+    margin: auto;
+}
+
+.outerDiv h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+#signUpForm {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 350px;
+    margin-left: 6%;
+}
+
+.detailsOfUser {
+    margin-bottom: 15px;
+}
+
+.detailsOfUser label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.detailsOfUser input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.detailsOfUser input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+
+.messagePage {
+    width: 99.9%;
+    height: 1065px;
+    background-color: antiquewhite;
+    padding-top: 1.5%;
+}
+
+#messageDiv {
+    width: 50%;
+    height: 925px;
+    margin: auto;
+    /* border: 2px solid; */
+    border-radius: 10px 10px 0 0;
+    background-color: #F5F6FA;
+    scrollbar-width: none;
+    overflow: scroll;
+}
+
+.userMsgInput {
+    width: 50%;
+    height: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    /* margin-top: 100%; */
+}
+
+
+#msgVal {
+    width: 75%;
+    height: 100px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+
+#msgVal:focus{
+    border: 2px solid blue;
+}
+
+#sendMsg {
+    width: 13%;
+    height: 57px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    margin-top: 1%;
+    background-color: #5356B6;
+    color: white;
+}
+
+.messages {
+    margin: 2% 0 0 2%;
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    font-size: 1.5em;
+    border-radius: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    display: flex;
+    justify-content: space-between;
+}
+
+.child{
+    width: 10%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chilD1{
+    width: 75%;
+    /* border: 1px solid; */
+    padding: 1% 1% 0 2%
+}
+
+.chilD2{
+    width: 10%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newChild{
+    width: 10%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newChilD1{
+    width: 75%;
+    /* border: 1px solid; */
+    padding: 1% 1% 0 2%;
+    font-size: 1em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.newChilD2{
+    width: 10%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#usersLike{
+    width: 80%;
+    height: 90%;
+    background-color: #f1f2f7;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+#usersLikeNew{
+    width: 80%;
+    height: 90%;
+    background-color: #f1f2f7;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.increase{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.newIncrease{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+
+.value{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.decrease{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.newValue{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.newDecrease{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#image{
+    width: 100%;
+    height: 40%;
+}
+
+.outerBox{
+    width: 80%;
+    height: 90%;
+    background-color: #f1f2f7;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.newOuterBox{
+    width: 80%;
+    height: 90%;
+    background-color: #f1f2f7;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.replyDiv{
+    width: 100%;
+    height: 30%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    font-weight: bolder;
+}
+
+.newSaveDiv{
+    width: 100%;
+    height: 30%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    font-weight: bolder;
+}
+
+.deleteDiv{
+    width: 100%;
+    height: 30%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    font-weight: bolder;
+}
+
+.newDeleteDiv{
+    width: 100%;
+    height: 30%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    font-weight: bolder;
+}
+
+.editDiv{
+    width: 100%;
+    height: 30%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    font-weight: bolder;
+}
+
+.newEditDiv{
+    width: 100%;
+    height: 30%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    font-weight: bolder;
+}
+
+.messageOuter{
+    width: 90%;
+    /* border: 1px solid; */
+    margin: 2% 0 0 2%;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#loginCheck{
+    color: blue;
+}
+
+#signUpCheck{
+    color: blue;
+}
+
+
+.replyOuterDiv{
+    width: 90%;
+    border: 1px solid;
+    margin: 2% 0 0 2%;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.replyMessages {
+    margin: 2% 0 0 2%;
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    font-size: 1.5em;
+    border-radius: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    display: flex;
+    justify-content: space-between;
+}
+
+.parentChild{
+    width: 100%;
+    height: 20%;
+    color: blue;
+    font-weight: bolder;
+}
+
+.parentChild1{
+   
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid; */
+    padding-top: 3%;
+    /* border: 1px solid; */
+}
